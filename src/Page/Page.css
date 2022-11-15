@@ -1,0 +1,20 @@
+.page {
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.05), 0 1px 4px rgba(0, 0, 0, 0.1),
+    0 10px 30px var(--paper-bg);
+    background-color: var(--paper-bg);
+}
+
+@media (min-width: 600px) {
+    .page {
+        margin: 10%;
+        padding: 16px;
+        max-width: 600px;
+    }
+}
+
+.page__title {
+    font-size: 32px;
+}

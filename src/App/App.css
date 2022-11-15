@@ -1,0 +1,24 @@
+:root {
+    --main: #222;
+    --error: #f41224;
+    --paper-bg: #fffff0;
+    --accent: #0050B0FF;
+    --body-bg: linear-gradient(270deg, #98d5ff, #c18bff);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main: #fffff0;
+        --paper-bg: #222;
+        --body-bg: linear-gradient(270deg, #072d46, #300164);
+    }
+}
+
+body {
+    margin: 0;
+    background: var(--body-bg);
+    background-size: 400% 400%;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: var(--main);
+}
